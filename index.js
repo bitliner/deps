@@ -28,6 +28,10 @@ function isDependent(packageJson, moduleName,cb){
 	result=depNames.some(function(depName){
 		return depName===moduleName;
 	});
+
+	// log thtat pacjageJson.name (and eventually a name) is not dependent
+	// log also verbose with new line
+
 	return cb(null,result);
 }
 function readFile(filename, cb){
