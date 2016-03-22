@@ -12,4 +12,6 @@ list all Npm modules - contained in current folder *./* - that have the module *
 
 ## Installation
 
+```
 npm i -g deps
+```
